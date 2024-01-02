@@ -293,11 +293,12 @@ img {
 }
 
 .project__subtitle {
-  font-size: var(--smaller-font-size);
+  font-size: 17px;
+  margin-bottom: 8px;
 }
 
 .projects__title {
-  font-size: var(--h3-font-size);
+  font-size: 18px;
   margin-bottom: 0.75rem;
 }
 
