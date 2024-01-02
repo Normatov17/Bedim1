@@ -314,6 +314,7 @@ img {
 /*=============== SKILLS ===============*/
 .skills__content {
   padding-top: 50px;
+  padding-bottom: 50px;
   row-gap: 3.5rem;
 }
 
@@ -360,6 +361,10 @@ img {
 /* Hide and show projects & skills */
 .filtres [data-content] {
   display: none;
+}
+
+.filtres__active[data-content] {
+  display: grid;
 }
 
 /* Activate button filter */
