@@ -259,6 +259,7 @@ img {
   background: var(--body-color);
 }
 /*=============== PROJECTS ===============*/
+
 .projects__card {
   position: relative;
   border-radius: 20px;
@@ -312,14 +313,54 @@ img {
 
 /*=============== SKILLS ===============*/
 .skills__content {
+  padding-top: 50px;
   row-gap: 3.5rem;
 }
 
 .skills__title {
   font-size: 24px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills__box {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.skills__group {
+  display: grid;
+  align-content: flex-start;
+  row-gap: 2rem;
+}
+
+.skills__data {
+  display: flex;
+  column-gap: 8px;
+}
+
+.skills__data i {
+  font-size: 1rem;
+  color: var(--first-color);
+}
+
+.skills__name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+
+.skills__level {
+  font-size: 18px;
+  line-height: 18px;
 }
 
 /* Hide and show projects & skills */
+.filtres [data-content] {
+  display: none;
+}
 
 /* Activate button filter */
 
